@@ -1,0 +1,56 @@
+/* Пастельный градиент на весь фон */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.main-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Стиль для абзаца */
+.styled-paragraph {
+    font-family: "Verdana", sans-serif;
+    color: #4a4a4a;
+    border: 2px solid #b8a99a; /* Рамка */
+    padding: 25px;            /* Отступы внутри */
+    background: white;
+    border-radius: 8px;
+    max-width: 450px;
+}
+
+/* Стиль для изображения */
+.rounded-shadow-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 30px;      /* Закругленные углы */
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2); /* Тень */
+    margin: 30px 0;
+    transition: transform 0.3s ease;
+}
+
+/* Интерактивность для фото */
+.rounded-shadow-img:hover {
+    transform: scale(1.03);
+}
+
+/* Стиль для ссылки */
+.magic-link {
+    text-decoration: none;
+    color: #8e7dbe;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+/* Интерактивность ссылки: изменение цвета и подчеркивание при наведении */
+.magic-link:hover {
+    color: #5a4a8d;
+    text-decoration: underline;
+}
